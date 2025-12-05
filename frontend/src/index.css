@@ -1,0 +1,62 @@
+/* GLOBAL FONT + RESET */
+body {
+  margin: 0;
+  font-family: "Inter", system-ui, sans-serif;
+  background-color: #f7f9fc;
+}
+
+/* Card styling */
+.card {
+  border-radius: 14px;
+}
+
+/* Input focus styling */
+.form-control:focus,
+.form-select:focus {
+  border-color: #3b82f6 !important;
+  box-shadow: 0 0 0 0.2rem rgba(59, 130, 246, 0.25) !important;
+}
+
+/* Buttons */
+.btn-primary {
+  background: linear-gradient(45deg, #3b82f6, #2563eb);
+  border: none;
+}
+
+.btn-warning {
+  color: #000 !important;
+}
+
+/* Smooth transitions */
+input,
+select,
+textarea,
+button {
+  transition: all 0.2s ease-in-out;
+}
+
+/* Dashboard card hover */
+.card:hover {
+  transform: scale(1.01);
+  transition: 0.2s ease;
+}
+
+/* Page heading */
+h3,
+h5 {
+  font-weight: 700;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
